@@ -131,7 +131,7 @@ public class Task2 {
         if (!isNatural(Number))
             return;
 
-        System.out.println("Number " + Number + " is" + (IsSimple(Number)? "": " not") + " simple.");
+        System.out.println("Number " + Number + " is" + (isSimple(Number)? "": " not") + " simple.");
     }
 
     // 2_2.4. Find all simple dividers of the number
